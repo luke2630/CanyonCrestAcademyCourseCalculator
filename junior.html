@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CCA Course Junior Calculator</title>
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body class="background">
+  <h1>CCA Junior Course Calculator</h1>
+  <div class="box-2">
+    <p>Please enter each class you wish to take this year. Make sure to select the classes from the dropdown list. Once you are finished, click on the submit button and your estimated average homework time and difficulty will be calculated. These numbers are based on course profiles and therefore the accuracy of these predictions may vary from teacher to teacher. This page contains all courses available for juniors at Canyon Crest Academy.</p>
+  </div>
+  <div class="body">
+  <form autocomplete="off" action="/action_page.php">
+    <div class="autocomplete" style="width:300px;">
+      <input id="J Sem 1 Period 1" type="text" name="myCountry" placeholder="Semester 1 Period 1">
+    </div>
+    <div class="autocomplete" style="width:300px;">
+      <input id="J Sem 2 Period 1" type="text" name="myCountry" placeholder="Semester 2 Period 1">
+    </div>
+  </form>
+  <form autocomplete="off" action="/action_page.php">
+    <div class="autocomplete" style="width:300px;">
+      <input id="J Sem 1 Period 2" type="text" name="myCountry" placeholder="Semester 1 Period 2">
+    </div>
+    <div class="autocomplete" style="width:300px;">
+      <input id="J Sem 2 Period 2" type="text" name="myCountry" placeholder="Semester 2 Period 2">
+    </div>
+  </form>
+  <form autocomplete="off" action="/action_page.php">
+    <div class="autocomplete" style="width:300px;">
+      <input id="J Sem 1 Period 3" type="text" name="myCountry" placeholder="Semester 1 Period 3">
+    </div>
+    <div class="autocomplete" style="width:300px;">
+      <input id="J Sem 2 Period 3" type="text" name="myCountry" placeholder="Semester 2 Period 3">
+    </div>
+  </form>
+  <form autocomplete="off" action="/action_page.php">
+    <div class="autocomplete" style="width:300px;">
+      <input id="J Sem 1 Period 4" type="text" name="myCountry" placeholder="Semester 1 Period 4">
+    </div>
+    <div class="autocomplete" style="width:300px;">
+      <input id="J Sem 2 Period 4" type="text" name="myCountry" placeholder="Semester 2 Period 4">
+    </div>
+    <div class="submit">
+    <h3 onclick="changeText(this)" class="button">Submit</h3>
+  </div>
+
+    <div class = "result">
+      <p>Average Class Difficulty <span id="diff">0</span> out of 3</p>
+      <p>Average Homework 1st Semester(low-end) <span id="lhw">0</span> minutes a day</p>
+      <p>Average Homework 1st Semester(high-end) <span id="hhw">0</span> minutes a day</p>
+      <p>Average Homework 2nd Semester(low-end) <span id="lhw2">0</span> minutes a day</p>
+      <p>Average Homework 2nd Semester(high-end) <span id="hhw2">0</span> minutes a day</p>
+    </div>
+
+  </form>
+    <script src="/js/Jjavascript.js"></script>
+    <script src="/js/Jalg.js"></script>
+    <a class="homebutton"href="index.html">Homepage</a>
+  </div>
+</body>
+
+</html>
