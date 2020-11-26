@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CCA Course Senior Calculator</title>
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body class="background">
+  <h1>CCA Senior Course Calculator</h1>
+  <div class="box-2">
+    <p>Please enter your schedule into the boxes below according to the label within the box. Make sure to select the classes from the dropdown list.<br><br> Once you are finished, click on the submit button and your average course difficulty and homework be calculated and displayed in the box below the submit button.<br><br> This page contains all courses available for seniors or 12th-grade students at Canyon Crest Academy.</p>
+  </div>
+  <div class="body">
+  <form autocomplete="off" action="/js/alg.js">
+    <div class="autocomplete" style="width:300px;">
+      <input id="Se Sem 1 Period 1" type="text" name="sem1period1" placeholder="Semester 1 Period 1">
+    </div>
+    <div class="autocomplete" style="width:300px;">
+      <input id="Se Sem 2 Period 1" type="text" name="sem2period1" placeholder="Semester 2 Period 1">
+    </div>
+  </form>
+  <form autocomplete="off" action="/js/alg.js">
+    <div class="autocomplete" style="width:300px;">
+      <input id="Se Sem 1 Period 2" type="text" name="sem1period2" placeholder="Semester 1 Period 2">
+    </div>
+    <div class="autocomplete" style="width:300px;">
+      <input id="Se Sem 2 Period 2" type="text" name="sem2period2" placeholder="Semester 2 Period 2">
+    </div>
+  </form>
+  <form autocomplete="off" action="/js/alg.js">
+    <div class="autocomplete" style="width:300px;">
+      <input id="Se Sem 1 Period 3" type="text" name="sem1period3" placeholder="Semester 1 Period 3">
+    </div>
+    <div class="autocomplete" style="width:300px;">
+      <input id="Se Sem 2 Period 3" type="text" name="sem2period3" placeholder="Semester 2 Period 3">
+    </div>
+  </form>
+  <form autocomplete="off" action="/js/alg.js">
+    <div class="autocomplete" style="width:300px;">
+      <input id="Se Sem 1 Period 4" type="text" name="sem1period4" placeholder="Semester 1 Period 4">
+    </div>
+    <div class="autocomplete" style="width:300px;">
+      <input id="Se Sem 2 Period 4" type="text" name="sem2period4" placeholder="Semester 2 Period 4">
+    </div>
+    <div class="submit">
+    <h3 onclick="changeText(this)" class="button">Submit</h3>
+    </div>
+    <script src="/js/Sejavascript.js"></script>
+    <script src="/js/Sealg.js"></script>
+    <div class = "result">
+      <p>Average Class Difficulty <span id="diff">0</span> out of 3</p>
+      <p>Average Homework 1st Semester(low-end) <span id="lhw">0</span> minutes a day</p>
+      <p>Average Homework 1st Semester(high-end) <span id="hhw">0</span> minutes a day</p>
+      <p>Average Homework 2nd Semester(low-end) <span id="lhw2">0</span> minutes a day</p>
+      <p>Average Homework 2nd Semester(high-end) <span id="hhw2">0</span> minutes a day</p>
+    </div>
+      <a class="homebutton" href="index.html">Homepage</a>
+  </div>
+</body>
+
+</html>
